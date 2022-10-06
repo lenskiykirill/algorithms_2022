@@ -153,9 +153,7 @@ namespace dst {
             // 2) go[v][c] = maximal suffix of v+c, might be trivial as well
             // 
             // If u is a parent of v (v = u+c), link[v] = go[u][c].
-            // go[u][
-
-
+            // go[u][]
       }
 }
 
