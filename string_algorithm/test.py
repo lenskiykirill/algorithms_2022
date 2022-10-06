@@ -7,19 +7,6 @@ def get_rand_s(size):
     return s
 
 if __name__ == "__main__":
+    L = 10
+    s = get_rand_s(10)
 
-    log = open("test.log", "w")
-
-    N = 10
-    L = 5
-    l = 3
-
-    s = get_rand_s(L)
-    log.write(s+'\n')
-    log.write(str(N) + '\n')
-    print(s)
-    print(N)
-    for i in range(N):
-        s = get_rand_s(l)
-        log.write(s+'\n')
-        print (s)
